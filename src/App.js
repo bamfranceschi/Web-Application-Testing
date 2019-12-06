@@ -5,7 +5,6 @@ import "./App.css";
 
 //simple increment function
 export const addHit = ({ hit, setHit }) => {
-  debugger;
   return setHit(hit + 1);
 };
 
